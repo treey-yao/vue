@@ -1,0 +1,465 @@
+/* 色值  ea5518 */
+
+
+@import url('../etui/index.css');
+
+/*ICON字体引入*/
+@import url('//at.alicdn.com/t/font_953446_k491k99lf9h.css');
+
+body {
+    margin: 0 auto !important;
+    max-width: 640px;
+    min-width: 320px;
+    font-size: .7rem;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, "黑体", Arial, Tahoma;
+}
+
+
+.ui-icon {
+    font-family: "iconfont"!important;
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% auto;
+    background-position: center;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*
+* 定义图标  公共图标
+* 其他图标写在页面
+*/
+/* 公共图片 微信 微博 朋友圈 */
+.share-wx {
+    background-image: url("../img/icon/qun.png");
+}
+.share-wb {
+    background-image: url("../img/icon/weibo.png");
+}
+.share-pyc {
+    background-image: url("../img/icon/pen.png");
+}
+
+.share-wbb{
+    background-image: url("../img/icon/blue.png");
+}
+
+.share-wbo {
+    background-image: url("../img/icon/orange.png");
+}
+
+
+/* 公共图片 微信 微博 渠道*/
+.share-media1 {
+    background-image: url("../img/icon/media1.png");
+}
+.share-media2 {
+    background-image: url("../img/icon/media2.png");
+}
+
+/* 快转大V */
+.kuai-da-v{
+     background-image: url("../img/icon/daV.png");
+     background-repeat: no-repeat;
+     background-position: 0 0 ;
+     background-size: 1.5rem auto;
+}
+
+/* 企业认证 */
+.comp-auth{
+     background-image: url("../img/icon/comp.png");
+     background-repeat: no-repeat;
+    background-position: 103% 107%;
+    background-size: 2rem auto;
+}
+
+
+/* 默认图片 */
+.default-img-box{
+    background-image: url("../img/default.png");
+}
+.default-img-box > div.default-img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 缩略图  链接任务  海报任务*/
+.poster-img {
+    background-image: url("../img/poster.png");
+}
+.url-img {
+    background-image: url("../img/url.png");
+}
+/* 错误提示 */
+.error-right .van-field__error-message{
+    text-align: right;
+}
+
+
+/* 标记 */
+.van-tag{
+    font-size: 10px !important;
+    padding: 1px 5px  !important;
+}
+
+/* 卡片盒子 */
+
+.card-container {
+    margin: .5rem .5rem 0;
+    border-radius: .5rem;
+    position: relative;
+    font-size: .7rem;
+}
+
+/*******************
+导航
+********************/
+.ui-bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    max-width: 640px;
+    margin: auto;
+    z-index: 100;
+    /* height: 44px; */
+    height: 2.25rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-bottom:1px solid #f3f3f3;
+}
+.ui-bar-bgcolor1 {
+    display: block;
+}
+.ui-bar-nav::after {
+    content:"";
+    clear: both;
+    display: block;
+}
+.ui-bar-nav {
+    top: 0;
+}
+
+.ui-head-nav-wrap {
+    padding: 0px;
+}
+
+.ui-pull-left{
+    float: left;
+}
+
+.ui-head-nav-wrap .ui-head-back-wrap {
+    height: 2.2rem;
+    padding: 0 .7rem;
+    border-right: 1px solid #e7e7e7;
+    background: #fff;
+}
+.ui-bar .ui-icon {
+    position: relative;
+    z-index: 20;
+    padding: .5rem 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+
+}
+
+.ui-head-back-wrap i.icon-back {
+    color: #888;
+}
+
+.ui-head-nav-wrap > .ui-bar-title-box {
+    /* height: 43px; */
+    height: 2.2rem;
+    background: #fff;
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.ui-bar-nav ~.ui-content {
+    margin-top: 2.2rem;
+    padding-top: 0.1px;
+}
+
+
+/*******************
+按钮
+********************/
+.ui-btn {
+    width: auto;
+    display: block;
+    font-size: .7rem;
+    text-align: center;
+    border-radius: .2rem;
+    margin: 0 .5rem;
+    padding: .35rem .3rem;
+    border: 1px solid #E0E0E0;
+    background: #fff;
+}
+
+/* 块级显示  */
+
+.ui-btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* 圆角 */
+
+.ui-btn-radius {
+    border-radius: 5rem;
+}
+/* 圆角 */
+
+.ui-btn-lg {
+   padding: .5rem 0;
+}
+
+/*  默认按钮 */
+
+.ui-btn-default {
+    border: 1px solid #2B9FF2;
+    background-color: #2B9FF2;
+    color: #fff;
+}
+
+/*  蓝色按钮 */
+
+.ui-btn-submit {
+    border: 1px solid #036DB7;
+    background-color: #036DB7;
+    color: #fff;
+}
+
+/*  黄色按钮 */
+
+.ui-btn-yellow {
+    border: 1px solid #F3AA1F;
+    background-color: #F3AA1F;
+    color: #fff;
+}
+
+/*  红色按钮 */
+
+.ui-btn-red {
+    border: 1px solid #FB4A40;
+    background-color: #FB4A40;
+    color: #fff;
+}
+
+/*  橙色按钮 */
+
+.ui-btn-orange {
+    border: 1px solid #EA5518;
+    background-color: #EA5518;
+    color: #fff;
+}
+
+/*  褐色按钮 */
+
+.ui-btn-brown {
+    border: 1px solid #97876A;
+    background-color: #97876A;
+    color: #fff;
+}
+/*  褐色按钮 */
+
+.ui-btn-green {
+    border: 1px solid #5eb95e;
+    background-color: #5eb95e;
+    color: #fff;
+}
+
+
+
+/*灰色按钮*/
+.ui-btn-gray {
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    color: #A0A0A0;
+}
+
+/*  白底 -蓝字 -黑框 */
+
+.ui-btn-text-blue {
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    color: #2B9FF2;
+}
+
+.ui-btn-text-orange{
+border: 1px solid #EA5518;
+    background-color: #fff;
+    color: #EA5518;
+}
+
+/* 正常边线框 */
+
+.ui-btn-text-normal {
+    border: 1px solid #cacaca;
+    background-color: #fff;
+    color: #666;
+}
+
+/*  白底 -黑字 -黑框 */
+
+.ui-btn-text-black {
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    color: #7E7E7E;
+}
+
+/* 禁止按钮 */
+
+.ui-btn-disabled {
+    opacity: .5;
+    pointer-events: none;
+    border-color: transparent;
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*******************
+文字 -颜色
+********************/
+
+/* 黑色 */
+
+.ui-text-black {
+    color: #333;
+}
+
+.ui-text-black1 {
+    color: #777;
+}
+
+/* 灰色 */
+
+.ui-text-gray {
+    color: #A2A2A2;
+}
+
+/* 红色 */
+
+.ui-text-red {
+    color: #CC0000;
+}
+
+/* 蓝色 */
+
+.ui-text-blue {
+    color: #2D9EF1;
+}
+
+/* 黄色 */
+
+.ui-text-yellow {
+    color: #F1AF20;
+}
+
+/* 绿色 */
+
+.ui-text-success {
+    color: #5eb95e;
+}
+
+/* 紫色 */
+
+.ui-text-purple {
+    color: #B33BE8;
+}
+
+/* 紫色 */
+
+.ui-text-violet {
+    color: #884898;
+}
+
+/* 褐色 */
+
+.ui-text-brown {
+    color: #9D8E72;
+}
+
+/* 橘色 */
+
+.ui-text-orange {
+    color: #ea5518;
+}
+
+/* 白色 */
+
+.ui-text-white {
+    color: #fff;
+}
+
+/*深蓝*/
+.ui-text-deepblue {
+    color: #7298BD;
+}
+
+
+
+/*******************
+弹窗
+********************/
+.pop-t{
+    background: transparent;
+    width: 80%;
+}
+.act-pop{
+    display: block;
+    width: 80%;
+    background: #fff;
+    border-radius: .5rem;
+    padding: .5rem
+}
+.act-pop-b{
+    display: block;
+    background: #fff;
+    border-radius: .5rem;
+    padding: .5rem
+}
+.pop-img-box {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+}
+.pop-img-box img {
+  width: 100%;
+}
+
+.pop-close-box{
+    display: block;
+    padding: .5rem 0;
+    text-align: center;
+}
+.pop-close-box .ui-icon {
+    font-size: 2rem;
+    color: #fff;
+}
+
+/*******************
+tab
+********************/
+
+.van-tab--active .van-ellipsis {
+    color: #ea5518;
+}
+
+.van-tabs__line{
+    background-color: #ea5518 !important;
+}
+
+.van-picker__cancel{
+    color: #A2A2A2!important;
+}
+.van-picker__confirm{
+    color: #ED7246!important;
+}

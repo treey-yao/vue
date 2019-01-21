@@ -1,0 +1,57 @@
+/**** 基础 *****/
+html {
+    font-size: 20px;
+}
+/* 4s */
+@media only screen and (min-width: 320px) {
+    html {
+        font-size: 17.06666667px !important;
+    }
+}
+/* 5/5s/6/6s/7/8 */
+@media only screen and (min-width: 375px) {
+    html {
+        font-size: 20px !important;
+    }
+}
+@media only screen and (min-width: 400px) {
+    html {
+        font-size: 21.33333333px !important;
+    }
+}
+/* iphone plus */
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 22.08px !important;
+    }
+}
+@media only screen and (min-width: 480px) {
+    html {
+        font-size: 25.6px !important;
+    }
+}
+@media only screen and (min-width: 640px) {
+    html {
+        font-size: 34.13333333px !important;
+    }
+}
+@media only screen and (min-width: 720px) {
+    html {
+        font-size: 38.4px !important;
+    }
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #3d4145;
+    background: #f3f3f3;
+}
+
+.ui-content {
+    -webkit-overflow-scrolling: touch;
+}
+*{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+}

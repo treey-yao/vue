@@ -1,0 +1,42 @@
+/***** flex *****/
+.ui-flex,
+.ui-flex-center,
+.ui-flex-between,
+.ui-flex-around,
+.ui-flex-column{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: inherit;
+}
+.ui-flex-center{
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.ui-flex-between{
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.ui-flex-around{
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+.ui-flex-column{
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.ui-flex-1{
+    -webkit-flex: 1;
+    flex: 1;
+}
+/*子元素*/
+/* .ui-flex-lt{
+
+} */
+/**/

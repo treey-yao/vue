@@ -1,0 +1,35 @@
+/***** 定位 *****/
+.ui-abs-box,
+.ui-abs-box > a,
+.ui-abs-box > div,
+.ui-abs{
+    position: absolute;
+    /*border: 1px solid #f00;*/
+}
+.ui-abs-center{
+    position: absolute;
+    /*border: 1px solid #f00;*/
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*居中*/
+.ui-abs-right{
+    position: absolute;
+    right: 0;
+}
+/*右上*/
+.ui-abs-rt{
+    top: 0;
+    left: 0;
+}
+/*右下*/
+.ui-abs-rb{
+    bottom: 0;
+    right: 0;
+}
+/*左下*/
+.ui-abs-lb{
+    bottom: 0;
+    left: 0;
+}
