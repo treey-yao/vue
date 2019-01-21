@@ -9,7 +9,7 @@
  * @param component 模板文件路径
 */
 
-import prd from './prd'
+// import prd from './prd'
 
 export default [
     ...prd,
@@ -26,8 +26,7 @@ export default [
             notWbauth: true
         },
         component: () => import('@/views/index/index.vue')
-    }
-
+    },
     {
         path: "/404",
         name: "404",
