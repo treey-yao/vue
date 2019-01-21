@@ -2,7 +2,7 @@
 
 ## 安装
 
-    git@git.dev.tencent.com:citrusu/jiaju.git
+    https://github.com/treey-yao/vue.git
 
 ## 安装依赖
 ```

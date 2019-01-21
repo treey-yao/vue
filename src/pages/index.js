@@ -10,7 +10,7 @@
 */
 
 import prd from './prd'
-import member from './member'
+
 export default [
     ...prd,
     ...member,
@@ -19,50 +19,15 @@ export default [
      * 公共
      * */
     {
-        path: '/wxauth',
-        name: 'wxauth',
-        meta: {
-            // title: '微信授权',
-            notWxauth: true
-        },
-        component: () => import('@/views/pub/wxauth.vue')
-    },
-    {
-        path: '/wbauth',
-        name: 'wbauth',
-        meta: {
-            // title: '微博授权',
-            notWbauth: true
-        },
-        component: () => import('@/views/pub/wbauth.vue')
-    },
-    //微信分享统计中转页
-    {
-        path: '/req',
-        name: 'req',
-        meta: {
-            title: '跳转中…',
-        },
-        component: () => import('@/views/pub/req.vue')
-    },
-    //微博分享统计中转页
-    {
-        path: '/wbreq',
-        name: 'wbreq',
-        meta: {
-            title: '跳转中…',
-        },
-        component: () => import('@/views/pub/req.vue')
-    },
-    {
-        path: "/debug",
-        name: "调试",
+        path: "/index",
+        name: "index",
         meta: {
             notWxauth: true,
             notWbauth: true
         },
-        component: () => import('@/views/pub/debug.vue')
-    },
+        component: () => import('@/views/index/index.vue')
+    }
+
     {
         path: "/404",
         name: "404",
