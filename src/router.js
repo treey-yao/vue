@@ -14,8 +14,8 @@ var route = new Router({
     routes: [
         {
             path: '/',
-            name: 'home',
-            redirect: "/prd"
+            name: 'index',
+            redirect: "/index"
         },
         ...pages,
         {

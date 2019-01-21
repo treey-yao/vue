@@ -12,9 +12,8 @@
 // import prd from './prd'
 
 export default [
-    ...prd,
-    ...member,
-
+    // ...prd,
+    // ...member,
     /**
      * 公共
      * */
